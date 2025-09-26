@@ -1,4 +1,7 @@
-# Smart Homecare Scheduler - All Rights Reserved © Dr. Yousra Abdelatti
+# ============================================================
+# Smart Homecare Scheduler
+# All Rights Reserved © Dr. Yousra Abdelatti
+# ============================================================
 
 import streamlit as st
 import pandas as pd
@@ -115,3 +118,4 @@ if st.button("Save Patients CSV"):
 if st.button("Save Schedule CSV"):
     st.session_state.schedule.to_csv("schedule.csv", index=False)
     st.success("Schedule saved to schedule.csv")
+
